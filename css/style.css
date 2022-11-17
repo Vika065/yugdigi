@@ -1,0 +1,522 @@
+@import "null.css";
+
+/*? шрифты */
+
+/* основной текст */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+/* font-family: 'Neucha', cursive; */
+
+/* h1 index */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+/* font-family: 'Rubik Wet Paint', cursive; */
+
+/* h2 */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+/* font-family: 'Rubik Dirt', cursive; */
+
+
+body {
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	/* background-color: rgb(0, 0, 0); */
+	background: url('../img/spider.jpg') repeat;
+	line-height: 1.5;
+	/* text-indent: 25px; */
+	text-align: justify;
+}
+p {
+	text-indent: 25px;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+[class*="__container"]{
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+img {
+	max-width: 850px;
+	border-radius: 60px;
+	box-shadow: 0px 0px 40px rgb(255, 255, 255);
+	transition: 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+
+/* .basic-characters__img {
+	width: 300px;
+	height: 300px;
+} */
+
+
+.header {
+	background-color: rgb(135, 89, 181);
+	max-width: 1200px;
+	margin: 30px auto 0px;
+	border-radius: 8%;
+	box-shadow: 0px 0px 30px  inset rgb(3, 3, 3);
+	padding: 50px 0px 50px;
+}
+.header__container {
+}
+.header__title {
+	font-family: 'Rubik Wet Paint', cursive;
+	font-size: 70px;
+	color: aliceblue;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+	transition: 1s;
+	text-shadow: 0px 0px 40px rgb(157, 0, 255);
+	text-transform: uppercase;
+}
+.header__title:hover {
+	color: rgb(0, 255, 21);
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+}
+.header__content {
+}
+.header__info {
+}
+.header__paragraph {
+	text-indent: 25px;
+}
+.header__span-bold {
+	font-weight: bold;
+}
+.header__span-italic {
+	font-style: italic;
+}
+.header__img {
+	max-width: 850px;
+	margin: 40px auto 40px;
+	transition: 1s;
+}
+/* .header__img:hover {
+	transform: scale(1.1);
+} */
+
+.header__nav {
+}
+.nav-header {
+}
+.nav-header__menu {
+}
+.menu {
+	text-align: center;
+	text-transform: uppercase;
+}
+.menu__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	transition: 1s;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 40px;
+	color: rgb(220, 183, 248);
+	margin: 0px 0px 20px 0px;
+}
+.menu__items {
+}
+.menu__item {
+
+}
+.subitem__link {
+	color: rgb(223, 180, 246);
+	font-size: 25px;
+	transition: 0.5s;
+	display: inline-block;
+}
+.item__link:hover {
+	transform: scale(1.2);
+	color: rgb(0, 255, 21);
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+}
+.subitem__link:hover {
+	transform: scale(1.2);
+	color: rgb(0, 0, 0);
+	text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.menu__item:not(:last-child) {
+	margin: 0px 0px 15px 0px;
+}
+.menu__subitems {
+}
+.menu__subitem {
+}
+.subitem {
+}
+.item {
+}
+.item__link {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	transition: 0.5s;
+	display: inline-block;
+
+}
+.main {
+	background-color: rgb(135, 89, 181);
+	max-width: 1200px;
+	margin: 30px auto 0px;
+	border-radius: 110px;
+	box-shadow: 0px 0px 30px  inset rgb(3, 3, 3);
+	padding: 50px 0px 50px;
+}
+.characters {
+}
+.characters__container {
+}
+.characters__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	transition: 1s;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 60px;
+	color: rgb(0, 255, 21);
+	margin: 20px 0px 20px 0px;
+	text-transform: uppercase;
+	margin: 0px 30px 0px 30px;
+}
+.characters__basic {
+	
+}
+.basic-characters {
+
+}
+.basic-characters__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+.basic-characters__links {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px -15px 30px;
+
+}
+.basic-characters__link {
+	flex: 1 1 33.333%;
+	padding: 0px 15px;
+	display: flex;
+
+}
+.basic-characters__img {
+	width: 300px;
+	height: 300px;
+	transition: 1s;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.567);
+	flex-grow: 1;
+	
+}
+.basic-characters__img:hover {
+	/* transform: scale(1.1); */
+	box-shadow: 0px 0px 60px rgb(0, 255, 21);
+}
+.characters__secondary {
+}
+.secondary-characters {
+}
+.secondary-characters__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+.secondary-characters__vandort {
+}
+.secondary-characters__character {
+}
+.secondary-characters__subtitle {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 40px;
+	color: rgb(220, 183, 248);
+	margin-top: 20px;
+}
+.secondary-characters__img {
+	margin: 40px auto 40px;
+	max-width: 850px;
+}
+.secondary-characters__info {
+}
+.secondary-characters__span-bold {
+	font-weight: bold;
+}
+.secondary-characters__span-italic {
+	font-style: italic;
+}
+
+.secondary-characters__everglot {
+}
+
+.secondary-characters__other {
+}
+.other__info-galswells {
+}
+.source {
+}
+.source__container {
+}
+.source__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	transition: 1s;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 60px;
+	color: rgb(0, 255, 21);
+	margin: 2px 0px 20px 0px;
+	text-transform: uppercase;
+}
+.source__text-1 {
+}
+.source__img {
+	margin: 40px auto 40px;
+	max-width: 850px;
+}
+.source__text-2 {
+}
+.facts {
+}
+.facts__container {
+}
+.facts__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	transition: 1s;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 60px;
+	color: rgb(0, 255, 21);
+	margin: 30px 0px 0px 0px;
+	text-transform: uppercase;
+}
+.facts__revival {
+}
+.revival {
+}
+.revival__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 40px;
+	color: rgb(220, 183, 248);
+	margin-top: 20px;
+}
+.revival__img {
+	margin: 40px auto 40px;
+	max-width: 850px;
+}
+.revival__text {
+}
+.facts__filming {
+}
+.filming {
+}
+.filming__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 40px;
+	color: rgb(220, 183, 248);
+	margin-top: 20px;
+}
+.filming__img {
+	margin: 40px auto 40px;
+	max-width: 850px;
+}
+.filming__text {
+}
+.facts__veil {
+}
+.veil {
+}
+.veil__title {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 40px;
+	color: rgb(220, 183, 248);
+	margin-top: 20px;
+}
+.veil__img {
+	margin: 40px auto 40px;
+	max-width: 850px;
+}
+.veil__text {
+}
+.footer {
+	background-color: rgb(135, 89, 181);
+	max-width: 1200px;
+	margin: 30px auto 0px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px  inset rgb(3, 3, 3);
+	padding: 30px 0px 30px;
+	border-radius: 70px;
+}
+.footer__link {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 40px;
+	color: rgb(220, 183, 248);
+	margin-top: 20px;
+	display: block;
+	transition: 1s;
+	text-align: center;
+}
+.footer__link:hover {
+	transform: scale(1.2);
+	color: rgb(0, 255, 21);
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* Герои */
+.header-2__title,
+.header-3__title,
+.header-4__title {
+	font-family: 'Rubik Wet Paint', cursive;
+	font-size: 70px;
+	text-align: center;
+	/* margin: 0px 0px 30px 0px; */
+	transition: 1s;
+	/* text-shadow: 0px 0px 40px rgb(157, 0, 255); */
+	text-transform: uppercase;
+}
+.header-2, 
+.header-3, 
+.header-4,
+.main-2,
+.main-3,
+.main-4,
+.footer-2,
+.footer-3,
+.footer-4 {
+	/* background-color: rgb(135, 89, 181); */
+	max-width: 1200px;
+	border-radius: 110px;
+	box-shadow: 0px 0px 30px  inset rgb(3, 3, 3);
+	padding: 30px 0px 30px;
+
+}
+.header-2, 
+.header-3, 
+.header-4 {
+	margin: 30px auto 50px;
+}
+.main-2,
+.main-3,
+.main-4 {
+	margin: 0 auto;
+}
+.footer-2,
+.footer-3,
+.footer-4 {
+	margin: 50px auto 0px;
+}
+.hero__span-bold {
+	font-weight: bold;
+}
+.hero__span-italic {
+	font-style: italic;
+}
+.hero__img {
+	margin: 40px auto 40px;
+	max-width: 850px
+}
+.hero__img img:hover {
+	box-shadow: 0px 0px 60px rgb(128, 0, 255);
+}
+.img-gif {
+	max-width: 500px;
+}
+.img-gif img:hover {
+	box-shadow: 0px 0px 60px rgb(0, 255, 21);
+}
+[class*="__home-page"], 
+[class*="__up"] {
+	font-family: 'Rubik Dirt', cursive;
+	text-align: center;
+	text-shadow: 0px 0px 60px rgb(157, 0, 255), 0px 0px 30px rgb(47, 1, 75), 0px 0px 10px rgb(0, 0, 0);
+	font-size: 30px;
+	color: rgb(220, 183, 248);
+	/* margin-top: 20px; */
+	display: block;
+	transition: 1s;
+	text-align: center;
+	text-transform: uppercase;
+}
+[class*="__home-page"]:hover,
+[class*="__up"]:hover {
+	transform: scale(1.1);
+	color: rgb(0, 255, 21);
+	text-shadow: 0px 0px 60px rgb(255, 255, 255), 0px 0px 30px rgb(232, 205, 249);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* ?Эмили */
+.header-2,
+.main-2,
+.footer-2 {
+	background-color: rgb(57, 8, 105);
+}
+.header-2__title {
+	text-shadow: 0px 0px 40px rgb(255, 255, 255);
+	color: rgb(0, 255, 21);
+}
+.main-2 .hero__info {
+	color: rgb(221, 190, 255);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* ?Виктор */
+.header-3,
+.main-3,
+.footer-3 {
+	background-color: rgb(30, 30, 30);
+	box-shadow: 0px 0px 50px  inset rgb(167, 94, 235);
+}
+.header-3__title {
+	text-shadow: 0px 0px 40px rgba(255, 255, 255, 0.496);
+	color: rgb(206, 159, 255);
+}
+.main-3 .hero__info {
+	color: rgba(198, 145, 255, 0.645);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* ?Виктория */
+.header-4,
+.main-4,
+.footer-4 {
+	background-color: rgb(79, 4, 4);
+}
+.header-4__title {
+	text-shadow: 0px 0px 40px rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+.main-4 .hero__info {
+	color: rgb(232, 151, 151);
+}
+.main-4 .hero__img img:hover {
+	box-shadow: 0px 0px 60px rgb(0, 0, 0);
+}
+.main-4 .img-gif img:hover {
+	box-shadow: 0px 0px 60px rgb(255, 0, 0);
+}
+.footer-4__home-page, 
+.footer-4__up {
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 60px rgb(255, 240, 203), 0px 0px 30px rgb(255, 236, 96), 0px 0px 10px rgb(255, 201, 101);
+}
+.footer-4__home-page:hover, 
+.footer-4__up:hover {
+	transform: scale(1.1);
+	color: rgb(255, 191, 0);
+	text-shadow: 0px 0px 60px rgb(255, 255, 255), 0px 0px 30px rgb(249, 205, 205);
+}
